@@ -1,6 +1,7 @@
 <template>
     <v-app>
         <!-- SIDEBAR -->
+        <side-bar/>
         <v-main>
             <!-- CARDS -->
 
@@ -10,6 +11,7 @@
 
 
 <script setup>
+    import SideBar from './components/SideBar.vue';
 
 </script>
 
