@@ -13,11 +13,13 @@
                 prepend-icon="mdi-image"
                 title="Color Gallery"
                 value="color"
+                @click="emits('selectOption', true)"
             />
             <v-list-item
                 prepend-icon="mdi-dialpad"
                 title="Gray Gallery"
                 value="gray"
+                @click="emits('selectOption', false)"
             />
         </v-list>
     </v-navigation-drawer>
@@ -25,7 +27,9 @@
 
 
 <script setup>
+    import { defineEmits } from 'vue';
 
+    const emits = defineEmits(['selectOption']);
 </script>
 
 
