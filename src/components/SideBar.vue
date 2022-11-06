@@ -1,5 +1,5 @@
 <template>
-    <v-navigation-drawer expand-on-hover rail>
+    <v-navigation-drawer expand-on-hover rail permanent>
         <v-list>
             <v-list-item
                 prepend-avatar="https://www.kulotsystems.tech/images/kulotsystems-v1.jpg?d677d330e6cb566ac1565f2b322881ba"
